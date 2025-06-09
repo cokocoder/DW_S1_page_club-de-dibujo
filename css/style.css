@@ -1,0 +1,1176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    scroll-behavior: smooth;
+}
+
+.header{
+   width: 100vw;
+
+top: 0px;
+background-color: #262626;
+display: block;
+justify-content: flex-start;
+padding: 40px 80px;
+color: #fff;
+
+}
+.nav{
+  align-self: stretch;
+display: flex;
+flex-direction: row;
+gap: 120px;
+
+
+}
+.logo__svg{
+    width: 100%;
+position: relative;
+height: 102px;
+overflow: hidden;
+flex-shrink: 0;
+}
+.nav__content{
+ position: relative;
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+gap: 36px;
+text-align: left;
+font-size: 16px;
+color: #fff;
+font-family: 'Comic Neue';
+}
+.nav__link{
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+padding: 0px 16px;
+gap: 16px;
+text-align: left;
+font-size: 16px;
+color: #fff;
+font-family: 'Comic Neue';
+text-decoration: none;
+cursor: pointer;
+}
+.nav__button{
+width: 100%;
+position: relative;
+border-radius: 16px;
+background-color: #ffed4d;
+height: 64px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px 60px;
+box-sizing: border-box;
+text-align: center;
+font-size: 16px;
+color: #1a1a1a;
+font-family: 'Comic Neue';
+line-height: 20px;
+letter-spacing: 1px;
+text-decoration: none;
+
+}
+.nav__link--icon-omly{
+    display: none;
+    width: 100%;}
+/* herosection */
+.hero{
+    width: 100vw;
+position: relative;
+background-color: #ffed4d;
+height: 990px;
+overflow: hidden;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+text-align: left;
+font-size: 120px;
+color: #1a1a1a;
+font-family: 'CreativeBlock BB';
+}
+
+.hero__content{
+    
+    align-self: stretch;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: space-between;
+gap: 0px;
+z-index: 0;
+}
+.hero__main{
+position: relative;
+width: 100%;
+height: 988px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+padding: 0px 53px;
+box-sizing: border-box;
+text-align: left;
+font-size: 120px;
+color: #1a1a1a;
+font-family: 'CreativeBlock BB';
+}
+.hero__section{
+ width: 100%;
+position: relative;
+height: 964px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+gap: 92px;
+text-align: left;
+font-size: 120px;
+color: #1a1a1a;
+font-family: 'CreativeBlock BB';
+background-color: #ffed4d;
+}
+.hero__text{
+width: 100%;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 67px;
+text-align: left;
+font-size: 120px;
+color: #1a1a1a;
+
+}
+.hero__title{
+width: 100%;
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+line-height: 80px;
+padding: 10px;
+box-sizing: border-box;
+text-align: left;
+font-size: 120px;
+color: #1a1a1a;
+
+}
+.hero__subtitle{
+    position: relative;
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 10px;
+box-sizing: border-box;
+text-align: left;
+font-size: 64px;
+}
+.hero__button{
+    width: 100%;
+position: relative;
+border-radius: 16px;
+background-color: #1a1a1a;
+height: 89px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 8px 16px;
+box-sizing: border-box;
+text-align: left;
+font-size: 20px;
+color: #fff;
+font-family: 'Comic Neue';
+max-width: 488px;
+}
+.hero__image{
+width: 100%;
+position: relative;
+height: 100%;
+display: flex;
+flex-shrink: 0;
+object-fit: cover;
+margin: 0;
+line-height: normal;
+background-color: #ffed4d;
+margin-top: 40px;
+padding-top: 20px;
+}
+/* about us */
+.about{
+    width: 100vw;
+position: relative;
+height: 654px;
+margin-top: 20px;
+overflow: hidden;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+gap: 16px;
+text-align: right;
+font-size: 96px;
+color: #1a1a1a;
+
+background-color: #fff;
+}
+.about__content{
+width: 100%;
+position: relative;
+height: 654px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px;
+padding: 20px;
+
+color: #1a1a1a;
+font-family: 'CreativeBlock BB';
+background-color: #fff;
+text-align: right;
+}
+.about__title{
+ width: 100%;
+position: relative;
+display: flex;
+flex-direction: row;
+
+justify-content: center;
+padding: 10px;
+box-sizing: border-box;
+text-align: right;
+font-size: 96px;
+color: #1a1a1a;
+font-family: 'CreativeBlock BB';
+flex-wrap: wrap;
+}
+.about__paragrah{
+    
+
+height: 200px;
+
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-end;
+padding: 0px 10px;
+box-sizing: border-box;
+text-align: right;
+color: #262626;
+font-family: "Comic Neue";
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+width: 900px;
+position: relative;
+letter-spacing: 0.75px;
+line-height: 32px;
+display: inline-block;
+flex-shrink: 0;
+}
+.about__date{
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 10px;
+box-sizing: border-box;
+text-align: right;
+font-size: 40px;
+color: #262626;
+font-family: 'CreativeBlock BB';
+letter-spacing: 1px;
+line-height: 30px;
+}
+.about__slogan{
+    align-self: stretch;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 10px;
+font-size: 28px;
+}
+.about__image{
+width: 100%;
+position: relative;
+height: 654px;
+display: flex;
+
+
+}
+.about__image--svg{
+ width: 100%;
+ height: 100%;
+position: relative;
+ transform: rotate(180deg);
+
+}
+/* activty section */
+.activity{
+width: 100vw;
+position: relative;
+background-color: #ffed4d;
+height: 984px;
+overflow: hidden;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 53px 0px 0px;
+box-sizing: border-box;
+text-align: center;
+}
+.activity__header{
+width: 100%;
+position: relative;
+height: 292px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+text-align: center;
+}
+.activity__title{
+    width: 100%;
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-size: 120px;
+color: #1a1a1a;
+font-family: 'CreativeBlock BB';
+}
+.activity__subtitle{
+ width: 100%;
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-size: 32px;
+color: #1a1a1a;
+font-family: 'CreativeBlock BB';
+}
+
+.activity__content{
+   width: 100%;
+position: relative;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+align-content: center;
+padding: 0px 43px;
+box-sizing: border-box;
+gap: 73px 106px;
+text-align: left;
+margin: 43px ;
+
+}
+.activity__card{
+ background-color: aqua;
+width: 100%;
+position: relative;
+background-color: #262626;
+overflow: hidden;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+gap: 10px;
+max-width: 596px;
+}
+.activty__card--one{
+width: 192px;
+position: relative;
+height: 210px;
+overflow: hidden;
+flex-shrink: 0;
+object-fit: cover;
+
+    
+}
+.activity__text{
+ position: relative;
+font-size: 51.52px;
+letter-spacing: 0.54px;
+line-height: 42.93px;
+font-family: 'CreativeBlock BB';
+color: #fff;
+text-align: left;
+margin: 0px;
+}
+/* publicaations */
+.pubications{
+    width: 100vw;
+position: relative;
+background-color: #fff;
+height: 1281px;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 0px 54px;
+}
+.pubications__title{
+    width: 100%;
+position: relative;
+height: 244px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 10px;
+box-sizing: border-box;
+text-align: center;
+font-size: 120px;
+color: #1a1a1a;
+font-family: 'CreativeBlock BB';
+}
+
+.pubilications__content{
+    width: 100%;
+position: relative;
+height: 806px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 92px;
+
+}
+.pubications__button{
+    width: 100%;
+position: relative;
+border-radius: 16px;
+height: 230px;
+overflow: hidden;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 64px 394px;
+box-sizing: border-box;
+}
+
+.publications__card{
+    width: 100%;
+position: relative;
+box-shadow: 0px 40px 80px -16px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.04);
+border-radius: 6px;
+background-color: #262626;
+overflow: hidden;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+gap: 10px;
+background-color: #262626;
+max-width: 376px;
+}
+.image__container{
+    width: 100%;
+position: relative;
+max-width: 100%;
+overflow: hidden;
+height: 266px;
+flex-shrink: 0;
+object-fit: cover;
+}
+
+.card__image{
+width: 100%;
+position: relative;
+max-width: 100%;
+overflow: hidden;
+height: 266px;
+flex-shrink: 0;
+object-fit: cover;
+
+}
+
+
+.card__content{
+    width: 100%;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+gap: 2px;
+text-align: center;
+padding: 20px 10px;
+
+}
+.card__title{
+    width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 10px;
+box-sizing: border-box;
+text-align: center;
+font-size: 40px;
+color: #fff;
+font-family: 'CreativeBlock BB';
+
+}
+
+.card__paragrah{
+width: 100%;
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 10px;
+box-sizing: border-box;
+text-align: left;
+font-size: 18px;
+color: #fff;
+font-family: 'Comic Neue';
+}
+
+.card__footer{
+    width: 100%;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 10px;
+padding: 20px 20px;
+}
+.label__container{
+width: 100%;
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
+flex-wrap: wrap;
+align-content: flex-start;
+gap: 9px 17px;
+
+}
+.card__label{
+    border-radius: 8px;
+background-color: #eee5ff;
+width: 120px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+padding: 2px 6px;
+box-sizing: border-box;
+
+}
+.label__text{
+    position: relative;
+font-size: 12px;
+letter-spacing: 0.75px;
+line-height: 18px;
+font-family: 'Comic Neue';
+color: #22006b;
+text-align: center;
+}
+
+.card__author{
+    width: 100%;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+
+box-sizing: border-box;
+border-radius: 11.88px;
+background-color: #ffe81e;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+padding: 2px 6px 2px 4px;
+gap: 4px;
+max-width: 100px;
+
+}
+.author__text{
+    position: relative;
+font-size: 12px;
+letter-spacing: 0.75px;
+line-height: 18px;
+font-family: 'Comic Neue';
+color: #1a1a1a;
+text-align: center;
+}
+/* challengue */
+.challengue{
+width: 100vw;
+position: relative;
+background-color: #fff;
+overflow: hidden;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+padding: 0px 55px;
+gap: 20px;
+}
+
+.challengue__content{
+width: 100%;
+position: relative;
+height: 896px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 68px;
+text-align: left;
+
+color: #1a1a1a;
+font-family: 'CreativeBlock BB';
+}
+.challengue__text{
+    width: 100%;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 52px;
+text-align: left;
+}
+.challengue__title{
+    width: 100%;
+position: relative;
+font-size: 120px;
+letter-spacing: 1px;
+line-height: 80px;
+font-family: 'CreativeBlock BB';
+}
+.challengue__subtitle{
+    width: 708px;
+position: relative;
+font-size: 32px;
+letter-spacing: 1px;
+line-height: 22px;
+display: flex;
+font-family: 'CreativeBlock BB';
+color: #1a1a1a;
+text-align: center;
+align-items: center;
+justify-content: center;
+height: 82px;
+}
+.challengue__slogan{
+    width: 100%;
+position: relative;
+font-size: 36px;
+letter-spacing: 1px;
+line-height: 26px;
+display: flex;
+font-family: 'CreativeBlock BB';
+color: #1a1a1a;
+text-align: left;
+align-items: center;
+height: 82px;
+}
+.challengue__button{
+    width: 100%;
+position: relative;
+border-radius: 20.98px;
+background-color: #1a1a1a;
+height: 117px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 8px 16px;
+box-sizing: border-box;
+text-align: left;
+font-size: 20px;
+color: #fff;
+font-family: 'Comic Neue';
+font-size: 40px;
+}
+.challengue__image{
+    width: 100%;
+}
+/* follow */
+.follow{
+    width: 100vw;
+position: relative;
+background-color: #ffed4d;
+height: 588px;
+overflow: hidden;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+flex-wrap: wrap;
+align-content: center;
+}
+
+.follow__title{
+    width: 100%;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 53px 78px;
+box-sizing: border-box;
+
+}
+.title__text{
+    width: 100%;
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-size: 90px;
+color: #1a1a1a;
+font-family: 'CreativeBlock BB';
+}
+.follow__content{
+    width: 100%;
+position: relative;
+height: 396px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+gap: 39px;
+}
+.follow__quest{
+    width: 100%;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+align-content: center;
+gap: 13px 56px;
+padding: 0px 120px;
+}
+.follow__input{
+    width: 100%;
+    height: 64px;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+text-align: left;
+font-size: 12px;
+color: #404040;
+font-family: 'Comic Neue';
+}
+.follow__button{
+    width: 100%;
+position: relative;
+border-radius: 15.03px;
+background-color: #1a1a1a;
+height: 95px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 8px 16px;
+box-sizing: border-box;
+text-align: left;
+font-size: 18px;
+color: #fff;
+font-family: 'Comic Neue';
+max-width: 488px;
+}
+/* footer */
+.footer{
+    width: 100vw;
+position: relative;
+background-color: #1a1a1a;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 0px 47px;
+box-sizing: border-box;
+background-color: #1a1a1a;
+}
+.footer__content{
+    width: 100%;
+position: relative;
+height: 338px;
+text-align: left;
+}
+.footer__text{
+    position: relative;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
+flex-wrap: wrap;
+align-content: flex-start;
+gap: 20px 177px;
+text-align: left;
+font-size: 20px;
+color: #fff;
+font-family: 'Comic Neue';
+}
+.footer__title{
+    position: relative;
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+text-align: left;
+font-size: 40px;
+color: #fff;
+font-family: 'CreativeBlock BB';
+padding-top: 40px;
+padding-bottom: 40px;
+gap: 20px;
+}
+.logo__footer{
+
+position: relative;
+height: 59px;
+overflow: hidden;
+flex-shrink: 0;
+color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .header{
+        padding: 20px 80px;
+        gap: 16px;
+        position: relative;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+padding: 0px 16px;
+box-sizing: border-box;
+gap: 16px;
+
+
+    }
+    .nav__link{
+        display: none;
+    }
+    .nav{
+        gap: 16px;
+    }
+    .nav__link--icon-omly{
+        display: block;
+    }
+    .hero__content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero__main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero__title{
+        font-size: 90px;
+        line-height: 72px;
+    }
+    .hero__section{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .hero__text{
+        text-align: center;
+    }
+    .hero__image{
+        display: none;
+    }
+    .hero__title, .hero__subtitle{
+        text-align: center;
+    }
+    .hero__button{
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        font-size: 24px;
+        align-items: center;
+    }
+    .about{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+    }
+    .about__image{
+        display: none;
+    }
+    .about__content{
+        width: 100%;
+        max-width: 800px;
+        text-align: center;
+        
+    }
+    
+    .about__paragrah{
+        width: 100%;
+        max-width: 800px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .about__date{
+        font-size: 30px;
+    
+    }
+    .about__title{
+        text-align: center;
+    }
+    .activity{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        height: 1624px;
+        
+    }
+    .activity__header{
+        text-align: center;
+        justify-content: center;
+    }
+    .activity__title{
+        font-size: 80px;
+    }
+    .pubications{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 20px;
+      
+        height: 2753px;
+    }
+    .pubications__title{
+        text-align: center;
+        font-size: 80px;
+    }
+    .pubilications__content{
+        width: 100%;
+position: relative;
+height: 2660px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 92px;
+
+    }
+
+    .challengue{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+       
+    }
+    .challengue__image{
+        display: none;
+    }
+    .challengue__title{
+        font-size: 80px;
+        text-align: center;
+    }
+    .follow{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        height: 1000px;
+    }
+    .follow__title{
+        text-align: center;
+        font-size: 80px;
+        
+    }
+}
+@media (max-width: 480px) {
+
+    .header{
+justify-content: center;
+padding: 0px 16px;
+box-sizing: border-box;
+gap: 16px;
+width: 100%;
+    }
+    .nav__content{
+        flex-direction: row;
+      
+        justify-content: center;
+    }
+
+
+
+
+    .hero__title{
+        font-size: 80px;
+        line-height: 60px;
+    }
+    .hero__subtitle{
+        font-size: 24px;
+    }
+    .hero__button{
+        width: 100%;
+        max-width: 300px;
+        padding: 16px;
+        font-size: 20px;
+    }
+    .about__title{
+        font-size: 60px;
+    }
+    .activity__title{
+        font-size: 60px;
+    }
+    .about{
+        padding: 20px;
+        gap: 20px;
+        height: 900px;
+    }
+
+    .about__content{
+        width: 100%;
+        height: 1500px;
+        padding: 9px;
+        text-align: center;
+    }
+    .about__paragrah{
+        width: 100%;
+        
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .about__image{
+        display: none;
+    }
+    .about__date{
+        
+        height: 305px;
+        text-align: center;
+
+    }
+    .about__slogan{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .activity{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        height: 1500px;
+    }
+    .activity__card{
+        font-size: 12px;
+        
+        
+    }
+    .activity__text{
+        font-size: 20px;
+        line-height: 30px;
+        
+    }
+
+    .pubications{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 20px;
+        height: 3000px;
+    }
+    .pubications__title{
+        text-align: center;
+        font-size: 50px;
+    }
+    .publications__card{
+        width: 300px;
+    }
+    .card__image--portrait{
+        width: 100%;
+        height: 300px;
+    }
+    .pubications__button{
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        font-size: 16px;
+    }
+    .challengue{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        height: 1200px;
+    }
+
+    .challengue__title{
+        font-size: 60px;
+        text-align: center;
+    }
+    .challengue__content{
+        width: 100%;
+        height: 800px;
+        padding: 20px;
+        text-align: center;
+    }
+    .challengue__subtitle{
+        font-size: 24px;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .challengue__image{
+        display: none;
+    }
+    .challengue__slogan{
+        font-size: 40px;
+        text-align: center;
+    }
+    .follow{
+      
+        align-items: center;
+        padding: 20px;
+        
+    }
+}
